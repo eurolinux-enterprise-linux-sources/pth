@@ -7,7 +7,7 @@ diff -Nur pth-2.0.7-orig/pth-config.in pth-2.0.7/pth-config.in
  
 +arch=$(uname -i)
 +case $arch in
-+    x86_64 | ppc64 | ia64 | s390x | sparc64 )
++    x86_64 | ppc64 | ia64 | s390x | sparc64 | aarch64)
 +        pth_ldlibdir="/usr/lib64"
 +        if [ "$pth_libdir" == "/usr/lib" ] ; then
 +            pth_libdir=${pth_libdir}64

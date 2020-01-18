@@ -1,7 +1,7 @@
 Summary:        The GNU Portable Threads library
 Name:           pth
 Version:        2.0.7
-Release:        19%{?dist}
+Release:        22%{?dist}
 License:        LGPLv2+
 Group:          System Environment/Libraries
 URL:            http://www.gnu.org/software/pth/
@@ -120,6 +120,15 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.0.7-22
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.0.7-21
+- Mass rebuild 2013-12-27
+
+* Thu Nov 14 2013 Jeff Law <law@redhat.com>  - 2.0.7-20
+- update pth-config for Aarch64
+
 * Wed Feb 20 2013 Michael Schwendt <mschwendt@fedoraproject.org> - 2.0.7-19
 - Build with -D_FILE_OFFSET_BITS=64 to get stat64 in pth_high.c
 - Guard the ARM CFLAGS sed substitution.
