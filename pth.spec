@@ -1,7 +1,7 @@
 Summary:        The GNU Portable Threads library
 Name:           pth
 Version:        2.0.7
-Release:        22%{?dist}
+Release:        23%{?dist}
 License:        LGPLv2+
 Group:          System Environment/Libraries
 URL:            http://www.gnu.org/software/pth/
@@ -120,6 +120,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Aug 1 2014 Jeff Law <law@redhat.com>  - 2.0.7-23
+- update pth-config for ppc64le
+
 * Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.0.7-22
 - Mass rebuild 2014-01-24
 
